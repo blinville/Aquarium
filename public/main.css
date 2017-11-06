@@ -1,0 +1,96 @@
+html, body {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+html{
+  background-image: url(background.svg);
+  width: 5000px;
+  height: 100%;
+  background-color: #1f2438;
+  margin: auto;
+
+
+}
+body{
+  margin: auto;
+}
+.anchor{
+  position: absolute;
+  top: 25;
+}
+.plantTallCircle{
+  position: absolute;
+  top: 50px;
+}
+.castle{
+  position: absolute;
+  top: 25px;
+}
+.coralMedium{
+  position: absolute;
+  top: 25px;
+}
+.rockTallOne{
+  position: absolute;
+  top: 25px;
+}
+.rockFatMedium{
+  position: absolute;
+  top: 25px;
+}
+.rockSmallOne{
+  position: absolute;
+  top: 25px;
+}
+.rockSmallTwo{
+  position: absolute;
+  top: 25px;
+}
+.plantOne{
+  position: absolute;
+  top: 25px;
+}
+.chest{
+  position: absolute;
+  top: 25px;
+}
+.archBig{
+  position: absolute;
+  top: 25px;
+}
+.archSmall{
+  position: absolute;
+  top: 25px;
+}
+.coralTwo{
+  position: absolute;
+  top: 25px;
+}
+.coralThree{
+  position: absolute;
+  top: 25px;
+}
+.coralFour{
+  position: absolute;
+  top: 25px;
+}
+.coralFive{
+  position: absolute;
+  top: 25px;
+}
+
+
+.rockMediumDark{
+  position: absolute;
+}
+@keyframes fish1 {
+  0%{
+    left: -100px;
+  }
+  100%{
+    left: 5505px;
+
+  }
+}
